@@ -1,0 +1,46 @@
+# ==========================================
+# Python Environments & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# ==========================================
+# Data & Telemetry (Crucial to ignore)
+# ==========================================
+# Ignore the entire data directory to prevent pushing massive NASA files
+data/
+*.parquet
+*.csv
+*.h5
+*.fits
+
+# ==========================================
+# Project Output Artifacts
+# ==========================================
+# Ignore generated plots and model checkpoints
+*.png
+*.jpg
+*.pdf
+detected_transits_plot.png
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# OS & IDE Specific Files
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
+*.swp
