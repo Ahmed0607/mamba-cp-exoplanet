@@ -1,0 +1,14 @@
+# Core Machine Learning Framework
+torch>=2.0.0
+pytorch-lightning>=2.0.0
+
+# Data Manipulation & Math
+numpy>=1.24.0
+pandas>=2.0.0
+pyarrow>=12.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Astrophysics & Telemetry
+lightkurve>=2.4.0
